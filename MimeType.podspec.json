@@ -18,7 +18,7 @@
     "tvos": "9.0"
   },
   "source": {
-    "git": "http://EXAMPLE/MimeType.git",
+    "git": "https://github.com/itlijunjie/MimeType.git",
     "tag": "0.0.1"
   },
   "source_files": [
