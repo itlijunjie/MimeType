@@ -1,9 +1,7 @@
 Pod::Spec.new do |s|
     s.name         = "MimeType"
     s.version      = "0.0.1"
-    s.summary      = "A short description of MimeType."
-    s.description  = <<-DESC
-    DESC
+    s.summary      = "MimeType SDK #{s.version} for iOS"
     s.homepage     = "https://github.com/itlijunjie/MimeType"
     s.license      = { :type => "WTFPL", :file => "LICENSE" }
     s.author             = { "itlijunjie" => "itlijunjie@gmail.com" }
