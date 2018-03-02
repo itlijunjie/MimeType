@@ -1,4 +1,7 @@
 ## MimeType
+[![Version](https://img.shields.io/cocoapods/v/MimeType.svg?style=flat)](http://cocoapods.org/pods/MimeType)
+[![Platform](https://img.shields.io/cocoapods/p/MimeType.svg?style=flat)](http://cocoapods.org/pods/MimeType)
+
 MimeType MimeTypes
 ## Usage
 ### Objective-C
