@@ -1,0 +1,16 @@
+PODS:
+  - MimeType (0.0.3)
+
+DEPENDENCIES:
+  - MimeType (from `../`)
+
+EXTERNAL SOURCES:
+  MimeType:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MimeType: d14434a2a74ce01013167d237da8f49a419d2402
+
+PODFILE CHECKSUM: a03f27439909e75e2a122a0bebc8e79ead1e219e
+
+COCOAPODS: 1.12.1
