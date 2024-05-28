@@ -137,4 +137,30 @@ public class MimeType: NSObject {
         }
         return res
     }
+    
+    @objc
+    public static func fileExtension(mimeType: String) -> String? {
+        var res: String? = nil
+        for (key, value) in mimeTypes {
+            if value == mimeType {
+                res = key
+                break
+            }
+        }
+        return res
+    }
+    
+    @objc
+    public static func fileExtensions(mimeType: String) -> [String]? {
+        var res: [String]? = nil
+        for (key, value) in mimeTypes {
+            if value == mimeType {
+                if res == nil {
+                    res = []
+                }
+                res?.append(value)
+            }
+        }
+        return res
+    }
 }

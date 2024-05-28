@@ -19,6 +19,9 @@ class MimeTypeSwiftTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         assert(MimeType.mimeType(string: "http://www.aaa.com/a.png") == "image/png", "失败")
         assert(MimeType.mimeType(url: URL.init(string: "http://www.aaa.com/a.png")) == "image/png", "失败")
+        assert(MimeType.fileExtension(mimeType: "image/png") == "png", "失败")
+        assert(MimeType.fileExtensions(mimeType: "image/png")?.isEmpty == false, "失败")
+        assert(MimeType.fileExtensions(mimeType: "text/html")?.count == 3, "失败")
         super.tearDown()
     }
     
